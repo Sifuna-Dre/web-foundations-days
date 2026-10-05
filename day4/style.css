@@ -1,0 +1,43 @@
+:root {
+    --bg-color: #ffffff;
+    --text-color: #222222;
+    --button-color: #3498db;
+}
+
+body.dark {
+    --bg-color: #1e1e1e;
+    --text-color: #ffffff;
+    --button-color: #555555;
+}
+
+body {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    font-family: Arial, sans-serif;
+    max-width: 700px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+textarea {
+    width: 100%;
+    padding: 10px;
+}
+
+button {
+    margin-top: 10px;
+    padding: 10px;
+    background: var(--button-color);
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.warning {
+    color: orange;
+}
+
+.over {
+    color: red;
+    font-weight: bold;
+}
